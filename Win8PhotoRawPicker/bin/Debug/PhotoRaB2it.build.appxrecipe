@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>ALBERT-GS60</Machine>
+    <WindowsUser>Albert</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>e4b8fb44-d62b-459c-861b-aa548cba3b92</PackageIdentityName>
+    <IntermediateOutputPath>D:\Home\Documents\GitHub\Win8PhotoRawPicker\Win8PhotoRawPicker\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="D:\Home\Documents\GitHub\Win8PhotoRawPicker\Win8PhotoRawPicker\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="D:\Home\Documents\GitHub\Win8PhotoRawPicker\Win8PhotoRawPicker\bin\Debug\PhotoRaB2it.exe">
+      <PackagePath>PhotoRaB2it.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Home\Documents\GitHub\Win8PhotoRawPicker\Win8PhotoRawPicker\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Home\Documents\GitHub\Win8PhotoRawPicker\Win8PhotoRawPicker\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Home\Documents\GitHub\Win8PhotoRawPicker\Win8PhotoRawPicker\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Home\Documents\GitHub\Win8PhotoRawPicker\Win8PhotoRawPicker\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Home\Documents\GitHub\Win8PhotoRawPicker\Win8PhotoRawPicker\Icons\FolderY.png">
+      <PackagePath>Icons\FolderY.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Home\Documents\GitHub\Win8PhotoRawPicker\Win8PhotoRawPicker\Icons\SaveY.png">
+      <PackagePath>Icons\SaveY.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Home\Documents\GitHub\Win8PhotoRawPicker\Win8PhotoRawPicker\bin\Debug\App.xaml">
+      <PackagePath>App.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Home\Documents\GitHub\Win8PhotoRawPicker\Win8PhotoRawPicker\bin\Debug\Common\StandardStyles.xaml">
+      <PackagePath>Common\StandardStyles.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Home\Documents\GitHub\Win8PhotoRawPicker\Win8PhotoRawPicker\bin\Debug\MainPage.xaml">
+      <PackagePath>MainPage.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Home\Documents\GitHub\Win8PhotoRawPicker\Win8PhotoRawPicker\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
